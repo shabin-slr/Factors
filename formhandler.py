@@ -12,8 +12,8 @@ class FormHandler(webapp2.RequestHandler):
 		if num < 0 :
 			num *= -1
 			
-		if ( num == 1 ):
-			return 1;
+		if ( num == 1 or num == 2):
+			return str(num);
 		result = []
 		i = 2
 		while ( i <= num/2 ):

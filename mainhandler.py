@@ -3,7 +3,7 @@ import webapp2
 MAIN_PAGE_HTML = """\
 <html>
   <body>
-    <form action="/sign" method="post">
+    <form action="/factors" method="post">
       <div><input name="num" type="number"></input></div>
       <div><input type="submit" value="Get Factors"></div>
     </form>

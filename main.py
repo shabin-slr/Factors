@@ -20,5 +20,5 @@ from formhandler import FormHandler
 
 app = webapp2.WSGIApplication([
  ('/', MainHandler),
- ('/sign', FormHandler),
+ ('/factors', FormHandler),
 ], debug=True)
